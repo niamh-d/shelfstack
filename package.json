@@ -1,0 +1,27 @@
+{
+  "name": "shelfstack",
+  "version": "0.0.0",
+  "author": "Elis Mätlik, Sian Fairley, Niamh Doyle",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "migrate": "node model/database.js"
+  },
+  "dependencies": {
+    "@fontsource/roboto": "^5.0.12",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "link-preview-js": "^3.0.5",
+    "mime-types": "^2.1.27",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0",
+    "react-router-dom": "^6.22.3"
+  }
+}
